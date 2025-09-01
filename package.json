@@ -1,0 +1,29 @@
+{
+  "name": "multi-source-ai-agent",
+  "version": "1.0.0",
+  "description": "Multi-Source AI Agent Challenge - Intelligent agent using Node.js",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@langchain/community": "^0.3.53",
+    "@langchain/core": "^0.3.72",
+    "@langchain/langgraph": "^0.4.8",
+    "@langchain/openai": "^0.6.9",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "readline": "^1.3.0",
+    "sqlite3": "^5.1.7"
+  }
+}
